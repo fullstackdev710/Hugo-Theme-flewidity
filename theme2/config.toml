@@ -1,6 +1,6 @@
 baseURL = ""
 title = "LOGO"
-theme = "flewidity"
+theme = "theme2"
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 math = false          # 
