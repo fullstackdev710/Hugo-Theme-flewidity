@@ -1,7 +1,8 @@
-baseURL = "https://example.com"
+baseURL = "https://github.com/flewid/theme1/"
 title   = "Hello Friend NG"
 languageCode = "en-us"
-theme = "hello-friend-ng"
+theme = "theme1"
+themesDir = "../.."
 
 PygmentsCodeFences = true
 PygmentsStyle = "monokai"
@@ -52,6 +53,7 @@ disableHugoGeneratorInject = false
   dateformShort   = "Jan 2"
   dateformNum     = "2006-01-02"
   dateformNumTime = "2006-01-02 15:04"
+  logoImg = "img/logo.png"
 
   # Metadata mostly used in document's head
   # 
