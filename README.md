@@ -1,1 +1,1 @@
-# Flewidity Themes
+# flewidity = site with individual pages
