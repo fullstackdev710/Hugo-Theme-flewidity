@@ -1,7 +1,6 @@
-baseURL = "https://github.com/flewid/"
+baseURL = "https://github.com/"
 title = "LOGO"
 theme = "flewidity"
-themesDir = "../.."
 disableKinds = ["taxonomy", "term"]
 enableEmoji = true
 math = false          # 
@@ -99,36 +98,15 @@ date_format = "Mon, Jan 2, 2006"
 
 
 # Main menu
-[[menu.main]]
-name       = "Home"
-identifier = "menu.home"
-url        = "/"
-weight     = 1
-
-
-[[menu.main]]
-name       = "About"
-identifier = "menu.about"
-url        = "about/"
-weight     = 2
-
-[[menu.main]]
-name       = "Services"
-identifier = "menu.Services"
-url        = "services/"
-weight     = 3
-
-[[menu.main]]
-name       = "Blog"
-identifier = "menu.blog"
-url        = "blog/"
-weight     = 4
-
-[[menu.main]]
-identifier = "contact"
-name       = "Contact"
-url        = "contact/"
-weight     = 5
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name       = "About"
+    url        = "about/"
+  [[menu.main]]
+    identifier = "posts"
+    name       = "Posts"
+    url        = "posts/"
 
 
 [params.heros]
